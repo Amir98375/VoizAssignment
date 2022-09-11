@@ -3,22 +3,33 @@ padding-top: 20px;
 width: 40%;
 margin: auto;
 }
+.span{
+ border-radius: 4px;
+  margin-left: 10px;
+  border: 1px lightgray;
+  border: 1px solid whitesmoke;
+}
 .showlist{
   background-color: white;
-  height: 35px;
+ 
   border-radius: 10px;
+  display: flex;
   width: 100%;
   margin: auto;
   padding-top: 10px;
 }
 .select-item{
  margin-top: 10px;
+
+
 }
 .checkboxshow{
     display: flex;
   
     background-color: white;
-    width: 40%;
+
+  
+    width: 100%;
     margin: auto;
  
     cursor: pointer;
