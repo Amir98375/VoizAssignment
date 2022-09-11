@@ -22,13 +22,15 @@ export const SelectComponent = () => {
   
   },[])
   return (
-    <div>
+    <div className='bodytag'>
      <div className='container'>
      <Select 
       placeholder='search country name'
        select={"All"}
       isObject={false} options={options} 
       onSearch={true}
+      color={"white"}
+      backgroundColor={"grey"}
       showCheckbox/>
      </div>
         
